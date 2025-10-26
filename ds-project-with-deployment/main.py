@@ -1,6 +1,3 @@
-def main():
-    print("Hello from ds-project-with-deployment!")
+from src.datascience import logger
 
-
-if __name__ == "__main__":
-    main()
+logger.info("This is the custom logging")
